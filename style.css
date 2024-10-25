@@ -1,0 +1,235 @@
+.navbar {
+    background-color: rgb(12, 48, 93);
+}
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(250, 247, 229);
+}
+.navbar-nav .nav-item .nav-link.active {
+    color: rgb(250, 247, 229);
+    font-weight: bold; 
+    border-bottom: 2px solid rgb(250, 247, 229); 
+}
+.jumbotron {
+    padding-top: 10rem;
+    background-image: url(img/banner-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+#hero-section {
+    height: 90vh;
+    background-image: url(img/banner-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h1 {
+    font-size: 3.5rem; 
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1.25rem; 
+}
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 30px; 
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+#services {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+}
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #343a40;
+}
+#services .icon {
+    color: #007bff; 
+}
+#services h4 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+#services p {
+    font-size: 1rem;
+    color: #6c757d; 
+}
+#testimonials {
+    background-color: #f8f9fa; 
+    padding: 50px 0;
+}
+#testimonials h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 40px;
+}
+.card {
+    background-color: white;
+    border: none; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-10px); 
+}
+.card img {
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+p {
+    color: #6c757d;
+}
+.text-muted {
+    font-size: 0.9rem;
+}
+#faq {
+    background-image: url(img/banner-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    
+}
+#contact {
+    background-image: url(img/banner-4.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#profile {
+    background-image: url(img/banner-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Arial, sans-serif;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.profile-section {
+    background-color: rgb(250, 247, 229);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.profile-bio h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.profile-bio p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.profile-bio p strong {
+    color: #333;
+}
+.education-section {
+    margin-top: 20px;
+    text-align: left;
+}
+.education-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.education-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.education-section ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.education-section ul li strong {
+    color: #333;
+}
+#gallery {
+    background-color: rgb(250, 247, 229);
+}
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+.gallery-item img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+section {
+    padding-top: 5rem;
+}
+#login {
+    background-color: rgb(250, 247, 229);
+}
+#daftar {
+    background-color: rgb(250, 247, 229);
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.password-container {
+    position: relative;
+}
+.password-container input {
+    padding-right: 40px;
+    height: 40px;
+}
+.password-container .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+footer {
+    background-color: rgb(12, 48, 93);
+    text-align: center;
+    padding: 3px;
+}
